@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Glassdoor Hardsell Remover",
+    "description": "An extension to remove that annoying Glassdoor overlay",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "toast.js",
+                "index.js"
+            ],
+            "matches": [
+                "https://www.glassdoor.fr/*"
+            ]
+        }
+    ]
+}
